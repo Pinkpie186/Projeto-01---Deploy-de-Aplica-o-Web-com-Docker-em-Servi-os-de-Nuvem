@@ -1,0 +1,2 @@
+# Projeto-01---Deploy-de-Aplica-o-Web-com-Docker-em-Servi-os-de-Nuvem
+Crie uma aplicação web com uma única tela e um back-end. O back-end rodará na porta 25000 e fornecerá dados ao front-end, que rodará na 8080. Ambas as aplicações devem ser empacotadas em um container Docker e implantadas em uma VM no AWS EC2. Configure a VPC e os Security Groups para permitir o tráfego e restringir o acesso externo ao back-end.
