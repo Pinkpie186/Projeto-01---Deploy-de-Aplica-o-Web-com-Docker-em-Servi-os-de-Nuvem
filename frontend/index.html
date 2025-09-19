@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🐱 Cat Lovers Portal</title>
+  <link rel="stylesheet" href="C:\Users\Giulia.Barros\OneDrive - Ipsos\PESSOAL\Mackenzie\Sistemas de Informação\frontend\style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">😺 Cat Lovers</div>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#curiosidades">Curiosidades</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Bem-vindo ao Cat Lovers Portal</h1>
+    <p>Descubra imagens incríveis e curiosidades sobre nossos amigos felinos 🐾</p>
+    <button id="heroCat">Mostrar um Gato</button>
+    <div class="hero-cat">
+      <img id="heroCatImage" src="" alt="">
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="section">
+    <h2>Sobre o Projeto</h2>
+    <p>
+      Este site foi desenvolvido para demonstrar o consumo da API pública <strong>The Cat API</strong>,
+      trazendo imagens de gatos aleatórias para alegrar seu dia.
+      O projeto também serve como exercício prático de <em>Docker</em> e deploy em <em>AWS EC2</em>.
+    </p>
+  </section>
+
+  <!-- Galeria -->
+  <section id="galeria" class="section">
+    <h2>Galeria de Gatos</h2>
+    <p>Clique no botão abaixo para carregar várias imagens fofas de gatos:</p>
+    <button id="loadGallery">Carregar Galeria 🐱</button>
+    <div id="galleryContainer" class="gallery"></div>
+  </section>
+
+  <!-- Curiosidades -->
+  <section id="curiosidades" class="section curiosidades">
+    <h2>Curiosidades sobre Gatos</h2>
+    <div class="card">
+      <h3>Sabia disso?</h3>
+      <ul>
+        <li>Os gatos passam cerca de 70% da vida dormindo.</li>
+        <li>O ronronar pode ajudar na cura de ossos e tecidos.</li>
+        <li>Existem mais de 70 raças reconhecidas de gatos domésticos.</li>
+        <li>Os gatos podem saltar até 6 vezes o comprimento do próprio corpo.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>🐾 Desenvolvido com amor para fins educacionais. Projeto de Deploy com Docker + AWS.</p>
+  </footer>
+
+  <script src="C:\Users\Giulia.Barros\OneDrive - Ipsos\PESSOAL\Mackenzie\Sistemas de Informação\frontend\script.js"></script>
+</body>
+</html>
