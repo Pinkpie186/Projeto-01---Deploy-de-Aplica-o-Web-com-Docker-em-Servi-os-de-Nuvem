@@ -1,0 +1,15 @@
+Dockerfile do front-end usando Nginx, que vai servir os arquivos estáticos (index.html, style.css, script.js) na porta 8080 como o enunciado do projeto pede.
+
+1. Crie a imagem Docker:
+
+docker build -t frontend-cats .
+
+2.Rode o container:
+
+docker run -d -p 8080:8080 frontend-cats
+
+3. Abra no navegador:
+
+http://localhost:8080
+
+👉 Esse front já está pronto pra subir na AWS EC2.
