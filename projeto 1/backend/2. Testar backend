@@ -1,0 +1,29 @@
+Testando Localmente
+
+1. Vá até a pasta do backend e instale dependências:
+npm install
+
+2. Rode o servidor:
+node server.js
+
+3. Abra no navegador:
+http://localhost:25000
+
+4. Você verá:
+Backend dos Gatos está rodando! 🐾
+
+5. E pode testar as rotas:
+
+http://localhost:25000/api/cat → retorna 1 imagem.
+http://localhost:25000/api/cats → retorna várias imagens.
+
+Testando com Docker
+
+1. Build da imagem:
+docker build -t backend-cats .
+
+2. Run:
+docker run -d -p 25000:25000 backend-cats
+
+Agora você tem o front (porta 8080) e o back (porta 25000) prontos pra subir na AWS.
+Na VPC/Security Groups você libera apenas a porta 8080 para acesso público e deixa a 25000 isolada (apenas acessível pela instância do front).
