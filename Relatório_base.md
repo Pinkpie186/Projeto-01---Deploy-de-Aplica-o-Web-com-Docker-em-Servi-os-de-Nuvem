@@ -2,7 +2,7 @@
 
 **Grupo:** 
 Gabriel Bello - 10416808
-(SEU NOMES E RA)
+Giulia Barros Gondim - 10401908
 
 **Data:** 22/09/2025
 
