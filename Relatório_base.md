@@ -1,6 +1,7 @@
 # Projeto 01 — Deploy de Aplicação Web com Docker em AWS EC2
 
 **Grupo:** 
+
 Gabriel Bello - 10416808
 
 Giulia Barros Gondim - 10401908
